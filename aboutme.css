@@ -1,0 +1,220 @@
+.about {
+    padding: 10rem 9% 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 6rem;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.about-img {
+    display: flex;
+    align-self: center;
+    margin-top: -4rem;
+    margin-left: -8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    width: 70vw;
+    max-width: 360px;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0 0 25px #b74b4b;
+    cursor: pointer;
+    transition: 0.3s linear;
+    margin-top: 2rem;
+}
+
+.about-img img:hover {
+    box-shadow: 0 0 45px #b74b4b;
+    transform: scale(1.03);
+}
+
+.about-content h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 4.2rem;
+    line-height: 1.2;
+    margin-bottom: 0.6rem;
+}
+
+.about-content h2 span {
+    color: #b74b4b;
+}
+
+.about-content h3 {
+    font-size: 2rem;
+    color: #b74b4b;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 2.5rem;
+}
+
+.about-info {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.8rem;
+}
+
+.info-card {
+    background: #111;
+    border: 1px solid #b74b4b44;
+    border-left: 3px solid #b74b4b;
+    border-radius: 1rem;
+    padding: 1.4rem 2rem;
+    flex: 1;
+    min-width: 14rem;
+    transition: 0.3s ease;
+}
+
+.info-card:hover {
+    background: #1a1a1a;
+    box-shadow: 0 0 15px #b74b4b44;
+    transform: translateY(-3px);
+}
+
+.info-card span {
+    display: block;
+    font-size: 1.2rem;
+    color: #b74b4b;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.4rem;
+}
+
+.info-card p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+}
+
+.skills-tags {
+    margin-bottom: 2.8rem;
+}
+
+.skills-tags h4 {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tag {
+    font-size: 1.3rem;
+    padding: 0.6rem 1.6rem;
+    border-radius: 4rem;
+    border: 1.5px solid #b74b4b;
+    color: #b74b4b;
+    background: transparent;
+    transition: 0.3s ease;
+    cursor: default;
+}
+
+.tag:hover {
+    background: #b74b4b;
+    color: greenyellow;
+    box-shadow: 0 0 12px #b74b4b;
+}
+
+.about-buttons {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem 2.8rem;
+    border-radius: 4rem;
+    letter-spacing: 0.3rem;
+    background: #000;
+    color: #b74b4b;
+    border: 2px solid #b74b4b;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #b74b4b;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px #b74b4b;
+    color: greenyellow;
+}
+
+.btn-secondary {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1rem 2.8rem;
+    border-radius: 4rem;
+    letter-spacing: 0.3rem;
+    background: #b74b4b;
+    color: #fff;
+    border: 2px solid #b74b4b;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background: transparent;
+    color: #b74b4b;
+    box-shadow: 0px 0px 20px #b74b4b;
+    transform: scale(1.03);
+}
+
+.section-tag {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: #b74b4b;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 1rem;
+    border-left: 3px solid #b74b4b;
+    padding-left: 1rem;
+}
+
+@media (max-width: 995px) {
+    .about {
+        grid-template-columns: 1fr;
+        padding: 10rem 6% 4rem;
+        gap: 4rem;
+    }
+
+    .about-content h2 {
+        font-size: 3.2rem;
+    }
+
+    .about-img img {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-info {
+        flex-direction: column;
+    }
+
+    .about-buttons {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Abhishek</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="logo">Abhishek</a>
+      <nav>
+        <a href="index.html"><b>Home</b></a>
+        <a href="aboutme.html"><b>About Me</b></a>
+        <a href="Skills.html"><b>Skills</b></a>
+        <a href="Projects.html" class="active"><b>Projects</b></a>
+        <a href="Education.html"><b>Education</b></a>
+        <a href="Contact.html"><b>Contact me</b></a>
+      </nav>
+    </header>
+
+    <section class="projects">
+      <div class="projects-header">
+        <span class="section-tag">What I've Built</span>
+        <h2>My <span>Projects</span></h2>
+        <p>
+          ✅ A collection of frontend projects showcasing my skills in HTML,
+          CSS, JavaScript and API integration.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 - Gemini Clone -->
+        <div class="project-card">
+          <div class="project-preview">
+            <img
+              src="https://raw.githubusercontent.com/Abhishekaaryabgp/gemini-ui-clone/main/preview/desktop.png"
+              alt="Gemini AI Clone Desktop View"
+              class="main-preview"
+              id="gemini-main"
+            />
+            <div class="preview-thumbnails">
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/gemini-ui-clone/refs/heads/main/preview/desktop.png"
+                alt="Desktop View"
+                class="thumb active"
+                onclick="changePreview('gemini-main', this)"
+                title="Desktop View"
+              />
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/gemini-ui-clone/refs/heads/main/preview/mobileview.png"
+                alt="Mobile View"
+                class="thumb"
+                onclick="changePreview('gemini-main', this)"
+                title="Mobile View"
+              />
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/gemini-ui-clone/refs/heads/main/preview/full.png"
+                alt="Full View"
+                class="thumb"
+                onclick="changePreview('gemini-main', this)"
+                title="Full View"
+              />
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div class="project-number">01</div>
+            <h3>Gemini AI <span>Clone</span></h3>
+            <p>
+              A pixel-perfect UI clone of Google's Gemini AI interface. Built
+              with pure HTML and CSS, fully responsive across all screen sizes —
+              desktop, tablet and mobile.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">Responsive</span>
+            </div>
+            <div class="project-buttons">
+              <a
+                href="https://github.com/Abhishekaaryabgp/gemini-ui-clone"
+                target="_blank"
+                class="btn-github"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://abhishekaaryabgp.github.io/gemini-ui-clone/#"
+                target="_blank"
+                class="btn-live"
+              >
+                <i class="fa-solid fa-globe"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 - Spotify Clone -->
+        <div class="project-card">
+          <div class="project-preview">
+            <img
+              src="https://raw.githubusercontent.com/Abhishekaaryabgp/spotify-clone/main/preview/desktop-view.png"
+              alt="Spotify Clone Desktop View"
+              class="main-preview"
+              id="spotify-main"
+            />
+            <div class="preview-thumbnails">
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/spotify-clone/main/preview/desktop-view.png"
+                alt="Desktop View"
+                class="thumb active"
+                onclick="changePreview('spotify-main', this)"
+                title="Desktop View"
+              />
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/spotify-clone/main/preview/tablet-view.png"
+                alt="Tablet View"
+                class="thumb"
+                onclick="changePreview('spotify-main', this)"
+                title="Tablet View"
+              />
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/spotify-clone/main/preview/fullscreen-view.png"
+                alt="Fullscreen View"
+                class="thumb"
+                onclick="changePreview('spotify-main', this)"
+                title="Fullscreen View"
+              />
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div class="project-number">02</div>
+            <h3>Spotify <span>Clone</span></h3>
+            <p>
+              A look-alike clone of Spotify's homepage built with pure HTML and
+              CSS. Focuses on layout, styling and responsive design to match the
+              original feel of Spotify's UI.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">Responsive</span>
+            </div>
+            <div class="project-buttons">
+              <a
+                href="https://github.com/Abhishekaaryabgp/spotify-clone"
+                target="_blank"
+                class="btn-github"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://abhishekaaryabgp.github.io/spotify-clone/"
+                target="_blank"
+                class="btn-live"
+              >
+                <i class="fa-solid fa-globe"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 - Cinemizaaj App -->
+        <div class="project-card">
+          <div class="project-preview">
+            <img
+              src="https://raw.githubusercontent.com/Abhishekaaryabgp/CineMizaaj/main/preview/desktop-screen.png"
+              alt="CineMizaaj Desktop View"
+              class="main-preview"
+              id="cine-main"
+            />
+
+            <div class="preview-thumbnails">
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/CineMizaaj/main/preview/desktop-screen.png"
+                alt="Desktop View"
+                class="thumb active"
+                onclick="changePreview('cine-main', this)"
+                title="Desktop View"
+              />
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/CineMizaaj/main/preview/full-screen.png"
+                alt="Tablet View"
+                class="thumb"
+                onclick="changePreview('cine-main', this)"
+                title="Tablet View"
+              />
+              <img
+                src="https://raw.githubusercontent.com/Abhishekaaryabgp/CineMizaaj/main/preview/mobile-screen.png"
+                alt="Mobile View"
+                class="thumb"
+                onclick="changePreview('cine-main', this)"
+                title="Mobile View"
+              />
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div class="project-number">03</div>
+            <h3>CineMi<span>zaaj</span></h3>
+            <p>
+              A mood-based Bollywood movie recommendation web app. Select your
+              mood and get 3 real movie suggestions with posters and details
+              powered by TMDB API.
+            </p>
+            <div class="project-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">JavaScript</span>
+              <span class="ptag">TMDB API</span>
+            </div>
+            <div class="project-buttons">
+              <a
+                href="https://github.com/Abhishekaaryabgp/CineMizaaj"
+                target="_blank"
+                class="btn-github"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://cine-mizaaj.vercel.app"
+                target="_blank"
+                class="btn-live"
+              >
+                <i class="fa-solid fa-globe"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 - Coming Soon -->
+        <div class="project-card coming-soon-card">
+          <div class="coming-soon-content">
+            <div class="coming-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Next <span>Project</span></h3>
+            <p>
+              Something new is coming using HTML, CSS & JavaScript. Stay tuned!
+              🚀
+            </p>
+            <div class="coming-badge">Coming Soon</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function changePreview(mainId, thumb) {
+        document.getElementById(mainId).src = thumb.src;
+        const allThumbs = thumb.parentElement.querySelectorAll(".thumb");
+        allThumbs.forEach((t) => t.classList.remove("active"));
+        thumb.classList.add("active");
+      }
+    </script>
+    <footer>
+      <p>&copy; 2026 Abhishek. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
