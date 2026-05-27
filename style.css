@@ -1,7 +1,5 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
-
-/* Reset / Base */
 * {
   margin: 0;
   padding: 0;
@@ -78,7 +76,6 @@ nav a.active {
 /* Main section */
 .home {
   flex: 1;
-  /* add this — fills empty space */
   padding: 12rem 9% 6rem;
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -104,9 +101,7 @@ nav a.active {
 
 .home-img img:hover {
   font-size: 1.8rem;
-  /* harmless on img but left as-is */
   font-weight: 500;
-  /* harmless on img but left as-is */
 }
 
 .home-content h1 {
@@ -138,7 +133,6 @@ nav a.active {
   border: 0.2rem solid #b74b4b;
   font-size: 2.2rem;
   border-radius: 50%;
-  /* FIX: invalid margin syntax */
   margin: 1.5rem 3rem 1.5rem 0;
   transition: 0.3s ease;
 }
@@ -196,12 +190,10 @@ button:hover {
   position: absolute;
   top: 0;
   left: 100%;
-  /* place caret just after the word */
   height: 100%;
   width: 0;
   /* no overlay width */
   border-left: 3px solid #b74b4b;
-  /* visible caret */
   background: transparent;
   animation: cursor 0.6s infinite;
 }
@@ -237,7 +229,6 @@ button:hover {
   }
 }
 
-/* Media */
 /* Hide toggle checkbox */
 .nav-toggle {
   display: none;
