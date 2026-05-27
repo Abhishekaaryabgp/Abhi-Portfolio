@@ -203,18 +203,16 @@
         font-size: 3.2rem;
     }
 
+    .about-img {
+        margin-left: 0;
+        margin-top: 0;
+        justify-content: center;
+    }
+
     .about-img img {
+        width: 55vw;
         max-width: 280px;
         margin: 0 auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .about-info {
-        flex-direction: column;
-    }
-
-    .about-buttons {
-        flex-direction: column;
+        display: block;
     }
 }
