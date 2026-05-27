@@ -241,8 +241,32 @@
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .skills-grid {
         grid-template-columns: 1fr 1fr;
+    }
+} */
+@media (max-width: 480px) {
+    .skills {
+        padding: 8rem 4% 4rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .skill-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .skill-icon {
+        width: 5rem;
+        height: 5rem;
+        font-size: 2.2rem;
+    }
+
+    .skill-card h4 {
+        font-size: 1.4rem;
     }
 }
