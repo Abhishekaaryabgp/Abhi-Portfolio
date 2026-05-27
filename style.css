@@ -1,5 +1,6 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -229,6 +230,7 @@ button:hover {
   }
 }
 
+
 /* Hide toggle checkbox */
 .nav-toggle {
   display: none;
@@ -347,28 +349,14 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-    .skills {
-        padding: 8rem 4% 4rem;
-    }
+  nav {
+    width: 100%;
+    border-left: none;
+  }
 
-    .skills-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
-    }
-
-    .skill-card {
-        padding: 1.5rem 1rem;
-    }
-
-    .skill-icon {
-        width: 5rem;
-        height: 5rem;
-        font-size: 2.2rem;
-    }
-
-    .skill-card h4 {
-        font-size: 1.4rem;
-    }
+  .home-content h1 {
+    font-size: 3rem;
+  }
 }
 
 footer {
